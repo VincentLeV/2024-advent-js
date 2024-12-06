@@ -88,6 +88,7 @@
 function organizeShoes(shoes) {
   const counts = {};
 
+  // Coun the number of each type of shoe for each size
   shoes.forEach(({ type, size }) => {
     if (!counts[size]) counts[size] = { I: 0, R: 0 };
     counts[size][type]++;
