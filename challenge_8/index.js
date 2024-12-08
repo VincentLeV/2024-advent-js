@@ -1,8 +1,4 @@
-/**
- * @param {number[]} indices - The reno indices
- * @param {number} length - The length of the race
- * @returns {string} The reno race
- */
+// Solution 1
 // function drawRace(indices, length) {
 //   let result = ""
 //   indices.forEach((position, i) => {
@@ -20,6 +16,11 @@
 //   return result
 // }
 
+/**
+ * @param {number[]} indices - The reno indices
+ * @param {number} length - The length of the race
+ * @returns {string} The reno race
+ */
 function drawRace(indices, length) {
   let result = "";
   indices.forEach((position, i) => {
@@ -41,7 +42,7 @@ console.log(drawRace([0, 5, -3], 10))
 ~~~~~~~r~~ /3
 */
 
-// console.log(drawRace([2, -1, 0, 5], 8))
+console.log(drawRace([2, -1, 0, 5], 8))
 /*
    ~~r~~~~~ /1
   ~~~~~~~r /2

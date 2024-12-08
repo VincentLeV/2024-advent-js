@@ -1,7 +1,4 @@
-/**
- * @param {{ type: 'I' | 'R', size: number }[]} shoes
- * @returns {number[]} Available shoes 
- */
+// Solution 1
 // function organizeShoes(shoes) {
 //   const organized = shoes.reduce((acc, shoe) => {
 //     let targetKey = shoe.size.toString();
@@ -32,6 +29,7 @@
 //     .map(([size]) => parseInt(size.split('_')[0]));
 // }
 
+// Soluttion 2
 // function organizeShoes(shoes) {
 //   const organized = shoes.reduce((acc, shoe) => {
 //     let targetKey = shoe.size.toString();
@@ -85,10 +83,14 @@
 //   return result
 // }
 
+/**
+ * @param {{ type: 'I' | 'R', size: number }[]} shoes
+ * @returns {number[]} Available shoes 
+ */
 function organizeShoes(shoes) {
   const counts = {};
 
-  // Coun the number of each type of shoe for each size
+  // Count the number of each type of shoe for each size
   shoes.forEach(({ type, size }) => {
     if (!counts[size]) counts[size] = { I: 0, R: 0 };
     counts[size][type]++;
