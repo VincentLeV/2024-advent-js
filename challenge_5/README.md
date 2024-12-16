@@ -8,7 +8,7 @@ Your task is to help the elves pair all the boots of the same size having a left
 
 Note: You can have more than one pair of boots of the same size!
 
-```
+```js
 const shoes = [
   { type: 'I', size: 38 },
   { type: 'R', size: 38 },

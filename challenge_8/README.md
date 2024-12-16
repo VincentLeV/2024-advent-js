@@ -20,7 +20,7 @@ Lanes are numbered at the end with /1, /2, etc.
 The view is isometric, so the lower lanes are shifted to the right.
 Examples:
 
-```
+```js
 drawRace([0, 5, -3], 10)
 /*
   ~~~~~~~~~~ /1

@@ -11,7 +11,7 @@ The tree should always have the same length on each side.
 You must ensure the tree has the correct shape using line breaks \n for each line.
 Examples:
 
-```
+```js
 const tree = createXmasTree(5, '*')
 console.log(tree)
 /*

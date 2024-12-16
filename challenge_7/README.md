@@ -10,7 +10,7 @@ If there are nested parentheses, solve the innermost ones first.
 Return the resulting string with parentheses removed, but with the content correctly reversed.
 He left us some examples:
 
-```
+```js
 fixPackages('a(cb)de')
 // ➞ "abcde"
 // We reverse "cb" inside the parentheses

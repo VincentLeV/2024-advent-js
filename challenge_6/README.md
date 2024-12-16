@@ -10,7 +10,7 @@ Keep in mind that the * can be inside, outside, or may not even be there. We mus
 
 Examples:
 
-```
+```js
 inBox([
   "###",
   "#*#",

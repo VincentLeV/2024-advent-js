@@ -13,7 +13,7 @@ If an attempt is made to access, increment, or decrement a register that has not
 The jump with JMP is absolute and goes to the exact index indicated by y.
 Upon completion, the program should return the content of register A. If A did not have a defined value, it returns undefined.
 
-```
+```js
 const instructions = [
   'MOV -1 C', // copies -1 to register 'C',
   'INC C', // increments the value of register 'C'

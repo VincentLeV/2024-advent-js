@@ -11,7 +11,7 @@ Normally, you would sum up all the values of the ornaments and that's it…
 
 But, watch out! If an ornament is immediately to the left of another of greater value, instead of adding, its value is subtracted.
 
-```
+```js
 calculatePrice('***')  // 3   (1 + 1 + 1)
 calculatePrice('*o')   // 4   (5 - 1)
 calculatePrice('o*')   // 6   (5 + 1)

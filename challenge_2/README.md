@@ -10,7 +10,7 @@ The frame is built with * and has a border one line thick.
 The width of the frame automatically adapts to the longest name plus a margin of 1 space on each side.
 Example of how it works:
 
-```
+```js
 createFrame(['midu', 'madeval', 'educalvolpz'])
 
 // Expected result:

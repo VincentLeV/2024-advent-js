@@ -14,7 +14,7 @@ The values will be objects that have the toy names as keys and the total quantit
 If there are toys with the same name in the same category, you must sum their quantities.
 If the array is empty, the function should return an empty object {}.
 
-```
+```js
 const inventory = [
   { name: 'doll', quantity: 5, category: 'toys' },
   { name: 'car', quantity: 3, category: 'toys' },

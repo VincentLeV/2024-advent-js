@@ -25,7 +25,7 @@ With this information, you must return a string:
 'none': If it moves without crashing or collecting any magical fruit.
 Example:
 
-```
+```js
 const board = [
   '·····',
   '*····',

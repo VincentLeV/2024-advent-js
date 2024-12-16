@@ -13,7 +13,7 @@ Keep in mind that the file names may contain letters (a-z, A-Z), numbers (0-9), 
 Your task is to implement a function that receives a string with the name of an encoded file and returns only the important part: the file name and its extension.
 
 Examples:
-```
+```js
 decodeFilename('2023122512345678_sleighDesign.png.grinchwa')
 // ➞ "sleighDesign.png"
 
